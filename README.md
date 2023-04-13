@@ -1,6 +1,6 @@
 # MapPlot
 
-##Magyar
+## Magyar
 A KSH TIMEA felületének reprodukciója R Shiny-ban a szakdolgozatom adattáblájával.
 
 
