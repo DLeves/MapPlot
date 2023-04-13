@@ -36,7 +36,7 @@ getInput = function(var, year){
 ui = fluidPage(
   fluidRow(
     column(2,       
-           selectInput("var","Válzotó:", choices = c("Tízezer lakosra jutó lakásépítés" = "LAKAS",
+           selectInput("var","Változó:", choices = c("Tízezer lakosra jutó lakásépítés" = "LAKAS",
                                                       "CSOK keresési trend" = "CSOK",
                                                       "Személyi jövedelemadóalapot képező jövedelem egy állandó lakosra" = "SZJA" ,
                                                       "Foglalkoztatottsági ráta" = "MUNKA" ,
