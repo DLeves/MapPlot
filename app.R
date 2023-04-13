@@ -1,4 +1,5 @@
 # Libraries, setting the working directory to the directory of the file
+# Note: If you want to upload the script to Shiny, you should turn the setwd(...) into comment
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 library(BAMMtools)
 library(tidyverse)
