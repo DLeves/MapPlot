@@ -6,7 +6,7 @@ A KSH TIMEA felületének reprodukciója R Shiny-ban a szakdolgozatom adattábl�
 Az adatok többségében Balázs(https://github.com/nagbalae) által KSH TIMEA-ról scrapelt adattábla alapján vannak, járások neve szerint sorbarendezve.
 Ahhoz, hogy más változók neveit lehessen mutatni a fent említett dataset-ből ahhoz a `ui`-ban kell kicserélni a `SelectInput` függvény `choices` paraméterében a következő módon: ```c("Az appban megjelenő változónév" = "A dataframe oszlopának neve",...)```
 
-A *Data* mappában Balázs lescrapelt adattáblááját is mellékeltem.
+A *Data* mappában Balázs lescrapelt adattábláját is mellékeltem.
 
 ## English
 An imitation of KSH's TIMEA interactive map in R Shiny with the dataset of my thesis
